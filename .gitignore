@@ -5,3 +5,4 @@ venv
 .env
 devtools
 *.pt
+.python-version
