@@ -1,2 +1,2 @@
 from .decorator import *
-from .latent_search_pro import *
+from .latent_model import *

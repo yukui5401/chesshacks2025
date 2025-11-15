@@ -4,4 +4,4 @@ venv
 .env.local
 .env
 devtools
-*.pt
+.pt
