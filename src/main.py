@@ -14,7 +14,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 # ------------------------
 # Load trained model
 # ------------------------
-ckpt_path = "src/epochs_2.ckpt"  # change to your checkpoint
+ckpt_path = "src/epochs_3.ckpt"  # change to your checkpoint
 model = ChessAlphaZeroResNet.load_from_checkpoint(ckpt_path)
 model.to(device)
 model.eval()  # disables dropout/batchnorm updates
