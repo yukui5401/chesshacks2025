@@ -121,8 +121,6 @@ class ChessManager:
     def update_move_probabilities(self, probabilities: dict[Move, float]):
         self._move_probabilities = probabilities
 
-# Lie to lsp's about type of the decorator
-
 
 @dataclass
 class ChessManagerType:

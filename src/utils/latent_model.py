@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 
 # -------------------------
-# FEN → tensor (pieces + extras)
+# FEN -> tensor
 # -------------------------
 def fen_to_tensor(fen):
     """
